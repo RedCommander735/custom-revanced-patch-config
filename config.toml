@@ -16,7 +16,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -25,6 +25,7 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Instagram]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 included-patches = "'Hide ads' 'Disable signature check'"
 exclusive-patches = true
@@ -33,6 +34,7 @@ exclusive-patches = true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
 [Tiktok]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Twitch]
